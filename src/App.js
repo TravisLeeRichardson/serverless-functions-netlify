@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
   const [message, setMessage] = useState('');
